@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  color: #FFFFFF;
+}
+
+body {
+  background-image: url("Kart/5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sect {
+  padding: 90px 0;
+  position: relative;
+}
+
+
+.collapse {
+  display: block;
+}
+
+.btn {
+  background-color: #FDC500;
+  border-radius: 20px;
+  padding: 10px 25px;
+  color: #fff;
+  box-shadow: 0 18px 13px -6px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+
+
+.btn:hover {
+  box-shadow: 0 25px 18px -6px rgba(0, 0, 0, 0.2);
+  background-color: #63b2fc;
+  color: #fff;
+}
+
+.price-box__wrap:hover .btn {
+  box-shadow: 0 25px 18px -6px rgba(0, 0, 0, 0.2);
+}
+
+.btn--revert {
+  background-color: transparent;
+  color: #FFFFFF;
+  box-shadow: none;
+  border: 1px solid #c9d9e9;
+}
+
+.btn--revert:hover {
+  background-color: transparent;
+  color: #1f4568;
+  box-shadow: none;
+  border: 1px solid #8198ae;
+}
+
+.btn--width {
+  width: 120px;
+}
+
+.btn--white {
+  background-color: #fff;
+  border: 1px solid #ededed;
+  color: #8198ae;
+}
+
+.btn--white:hover {
+  background-color: #fff;
+  color: #FFFFFF;
+}
+
+/*menu header*/
+.header {
+  padding: 30px 25px;
+}
+
+.header__elenco {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.header__menu {
+  float: right;
+}
+
+.header__el {
+  padding: 0 25px;
+  display: inline-block;
+}
+
+.header__img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header__logo, .header__menu {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header__title {
+  font-size: 18px;
+  margin: 0;
+  margin-left: 10px;
+  display: inline-block;
+  line-height: 18px;
+  vertical-align: middle;
+}
+
+.header__light {
+  color: #D1DAE7;
+}
+
+.header__link {
+  color: #FFFFFF;
+  font-size: 20px;
+
+}
+
+.header__link:hover {
+  text-decoration: none;
+  color: #FF0004;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #8198ae;
+}
+
+.navbar-toggle {
+  margin: 5px 0;
+}
+
+
+/* section */
+.sect {
+  padding: 90px 0;
+  position: relative;
+}
+
+.site {
+  text-align: center;
+}
+
+.site__title {
+  font-size: 40px;
+  margin: 0;
+  text-align: center;
+}
+
+.site__subtitle {
+  font-size: 22px;
+  color: #8198ae;
+  margin: 15px 0 40px 0;
+  text-align: center;
+}
+
+.site__img {
+  margin-top: 50px;
+/*   display: inline-block; */
+  width: 50%;
+}
+
+.site__box-link .btn--revert {
+  margin-left: 15px;
+}
+
+
+.btn--revert {
+  background-color: transparent;
+  color: #8198ae;
+  box-shadow: none;
+  border: 1px solid #c9d9e9;
+}
+
+.btn--revert:hover {
+  background-color: transparent;
+  color: #1f4568;
+  box-shadow: none;
+  border: 1px solid #8198ae;
+}
+
+
