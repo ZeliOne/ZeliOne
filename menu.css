@@ -4,10 +4,11 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: "Times New Roman", "serif";  font-weight: bold; text-decoration: normal; vertical-align: baseline;"
-  background="Kart/8.png"
+  
 }
 
 body {
+  background="Kart/8.png"
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
