@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-  background="Kart/8.png"
+  background-image: url("Kart/8.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
