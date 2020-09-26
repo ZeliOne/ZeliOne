@@ -3,8 +3,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;
-  color: #FFFFFF;
+  font-family: "Times New Roman", "serif";  font-weight: bold; text-decoration: normal; vertical-align: baseline;"
+  color: #;
 }
 
 body {
@@ -25,7 +25,7 @@ body {
 }
 
 .btn {
-  background-color: #FDC500;
+  background-color: #;
   border-radius: 20px;
   padding: 10px 25px;
   color: #fff;
@@ -40,8 +40,8 @@ body {
 
 .btn:hover {
   box-shadow: 0 25px 18px -6px rgba(0, 0, 0, 0.2);
-  background-color: #63b2fc;
-  color: #fff;
+  background-color: #;
+  color: #FFCE00;
 }
 
 .price-box__wrap:hover .btn {
@@ -50,7 +50,7 @@ body {
 
 .btn--revert {
   background-color: transparent;
-  color: #FFFFFF;
+  color: #000000;
   box-shadow: none;
   border: 1px solid #c9d9e9;
 }
@@ -63,18 +63,18 @@ body {
 }
 
 .btn--width {
-  width: 120px;
+  width: 70px;
 }
 
 .btn--white {
-  background-color: #fff;
-  border: 1px solid #ededed;
-  color: #8198ae;
+  background-color: #;
+  border: 0.2px solid #ededed;
+  color: #000000;
 }
 
 .btn--white:hover {
-  background-color: #fff;
-  color: #FFFFFF;
+  background-color: #;
+  color: #FFC600;
 }
 
 /*menu header*/
@@ -89,11 +89,11 @@ body {
 }
 
 .header__menu {
-  float: right;
+  float: top;
 }
 
 .header__el {
-  padding: 0 25px;
+  padding: 0 15px;
   display: inline-block;
 }
 
@@ -117,18 +117,18 @@ body {
 }
 
 .header__light {
-  color: #D1DAE7;
+  color: #000000;
 }
 
 .header__link {
-  color: #FFFFFF;
+  color: #000000;
   font-size: 20px;
-
+  
 }
 
 .header__link:hover {
   text-decoration: none;
-  color: #FF0004;
+  color: #3a9fff;
 }
 
 .navbar-toggle .icon-bar {
@@ -151,14 +151,14 @@ body {
 }
 
 .site__title {
-  font-size: 40px;
+  font-size: 30px;
   margin: 0;
   text-align: center;
 }
 
 .site__subtitle {
   font-size: 22px;
-  color: #8198ae;
+  color: #FFFBFB;
   margin: 15px 0 40px 0;
   text-align: center;
 }
