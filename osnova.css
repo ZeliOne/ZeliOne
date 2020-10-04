@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Стиль заголовка  */
+.header {
+    background-color: #;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Стиль верхньої панелі навігації */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Стиль посилань Topnav */
+.topnav a {
+    float:left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+/* Змінюємо колір при наведенні */
+.topnav a:hover {
+    background-color: #ffae00;
+    color: black;
+}
+
+
+/* Стиль футера */
+#footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #333; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
+</style>
+</head>
+
+</html>
